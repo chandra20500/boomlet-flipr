@@ -1,0 +1,326 @@
+h1 {
+    margin: 0;
+    padding: 0;
+  }
+  html, body, .app {
+    margin: 0;
+    padding: 0;
+  }
+  .popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+  }
+  .popup_inner {
+    position: absolute;
+    top:30vh;
+    left: 30vw;
+    height: 70%;
+    width: 40%;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+  }
+  .filter_body{
+    /* border: 2px solid black; */
+    margin: 15px;
+  }
+  .filter_heading{
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    font-size: 1.3rem;
+    display: none;
+    /* border: 2px solid black; */
+  }
+  .reset_all{
+    color: red;
+    position: absolute;
+    font-weight: 300;
+    font-size: 0.9rem;
+    right: 5%;
+    top: 2%;
+    /* border: 2px solid black; */
+    float: right;
+  }
+  .platform_filter{
+    /* border: 2px solid black; */
+    /* height: 10%; */
+    margin-top: 12%;
+    margin-left: 3%;
+    height: 3rem;
+  }
+  .choose_platform_filter{
+    background-color: #F5F5F5;
+    width: 40%;
+    height: 100%;
+    margin-top: 0%;
+    color: rgb(110, 110, 110);
+    position: relative;
+    float: left;
+  }
+  .choose_platform_filter p{
+    font-size: 0.7rem;
+    position: absolute;
+    transform: translateY(-50%);
+    left: 7%;
+  }
+  .choose_platform_filter #myList{
+    border: none;
+    background-color: #F5F5F5;
+    width: 86%;
+    position: absolute;
+    top: 60%;
+    margin-left: 6%;
+    transform: translateY(-50%);
+    font-size: 0.7rem;
+    color: #6C6C6C;
+    font-weight: 600;
+  }
+  .choose_platform_filter option{
+    border: none;
+    background-color: white;
+  }
+  .checkbox_platform_filter{
+    margin-left: 50%;
+    position: relative;
+  }
+  .checkbox_platform_filter input{
+    padding-left: 5%;
+    float: left;
+    position: relative;
+    margin-left: 5%;
+    margin-top: 7%;
+    transform: translateY(-50%);
+  }
+  .checkbox_platform_filter p{
+    float: left;
+    /* border: 2px solid black; */
+    margin-top: 4%;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: 2%;
+  }
+  .location_filter{
+    /* border: 1px solid black; */
+    margin-top: 2%;
+    height: 3rem;
+    background-color: #FAFAFA;
+    width: 93%;
+    margin-left: 3%;
+  }
+  .cityname_filter{
+    border-radius: 20%;
+    margin-left: 2%;
+    position: relative;
+    top: 15%;
+    width: 10%;
+    height: 70%;
+    padding-left: 1%;
+    font-size: 0.8rem;
+    background-color: #EBEBEB;
+    float: left;
+  }
+  .cityname_filter span{
+    position: relative;
+    top: 22%;
+    color: rgb(92, 91, 91);
+    margin-left: 2%;
+    font-size: 0.8rem;
+  }
+  .cityname_filter i{
+    color: rgb(122, 122, 122);
+    /* border: 1px solid black; */
+    transform: translateY(-50%);
+    margin-left: 35%;
+  }
+  .enter_cityname_filter{
+    background-color: #FAFAFA;
+    border: none;
+    position: relative;
+    margin-left: 1rem;
+    top: 40%;
+    transform: translateY(-50%);
+    color: rgb(88, 85, 85);
+  }
+  .choose_vender_filter{
+    background-color: #FAFAFA;
+    margin-top: 2%;
+    position: relative;
+    height: 3rem;
+    /* border: 1px solid black; */
+    width: 93%;
+    margin-left: 3%;
+  }
+  .enter_choose_vender_filter{
+    height: 100%;
+    background-color: #FAFAFA;
+    position: relative;
+    border :none;
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 0%;
+    color: rgb(88, 85, 85);
+  }
+  .choose_influencer_category{
+    background-color: #FAFAFA;
+    margin-top: 2%;
+    position: relative;
+    height: 3rem;
+    /* border: 1px solid black; */
+    width: 93%;
+    margin-left: 3%;
+  }
+  .enter_choose_influencer_category{
+    height: 100%;
+    background-color: #FAFAFA;
+    position: relative;
+    border :none;
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 0%;
+    color: rgb(88, 85, 85);
+  }
+  .choose_influencer_type{
+    background-color: #FAFAFA;
+    margin-top: 2%;
+    position: relative;
+    height: 3rem;
+    /* border: 1px solid black; */
+    width: 93%;
+    margin-left: 3%;
+  }
+  .enter_choose_influencer_type{
+    height: 100%;
+    background-color: #FAFAFA;
+    position: relative;
+    border :none;
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 0%;
+    color: rgb(88, 85, 85);
+  }
+  .choose_select_language{
+    background-color: #FAFAFA;
+    margin-top: 2%;
+    position: relative;
+    height: 3rem;
+    /* border: 1px solid black; */
+    width: 93%;
+    margin-left: 3%;
+  }
+  .enter_choose_select_language{
+    height: 100%;
+    background-color: #FAFAFA;
+    position: relative;
+    border :none;
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 0%;
+    color: rgb(88, 85, 85);
+  }
+  .cost_filter{
+    /* border: 1px solid black; */
+    height: 18%;
+    width: 88%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex_cost_filter{
+    /* border: 2px solid black; */
+    height: 50%;
+    width: 100%;
+  }
+  .cost_filter>.flex_cost_filter{
+    flex: 0 50%;
+    box-sizing:border-box;
+  }
+  .price_min_filter{
+    /* border: 2px solid black; */
+    height: 80%;
+    background-color: #fafafa;
+    height: 60%;
+    width: 35%;
+    margin-left: 10%;
+    color: rgb(88, 85, 85);
+    position: relative;
+    float: left;
+  }
+  .price_min_filter p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    /* border: 2px solid black; */
+    font-size: 0.7rem;
+    margin-left: 10%;
+    height: 40%;
+  }
+  .flex_cost_filter>p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 10%;
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
+  .price_min_filter .material-icons{
+    height: 1rem;
+    font-size: 20px;
+    position: absolute;
+    top: 25%;
+    right: 0;
+    margin-right: 10%;
+  }
+  .buttons_filter{
+    /* border: 2px solid black; */
+    position: absolute;
+    bottom: 5%;
+    width: 35%;
+    right: 10%;
+    height: 5%;
+  }
+  .discard_button_filter{
+    position: absolute;
+    color: #6238F2;
+    background-color: transparent;
+    height: 2.5rem;
+    border: none;
+    cursor: pointer;
+    right: 60%;
+  }
+  .apply_button_filter{
+    position: absolute;
+    font-size: 0.8rem;
+    width: 40%;
+    color: white;
+    background-color: #6238F2;
+    border: none;
+    height: 2.5rem;
+    border-radius: 10px;
+    right: 0;
+    cursor: pointer;
+  }
+  .select_box{
+    margin-left: -20px;
+    padding-left: 10px;
+    flex-direction: column;
+    position: absolute;
+    display: none;
+    color:black;
+    width:100%;
+    height:200px;
+    background-color: white;
+    z-index: 2;   
+    border:1px solid #6C6C6C; 
+  }
+  .social_media_select:hover > .select_box{
+    display:flex;
+  }

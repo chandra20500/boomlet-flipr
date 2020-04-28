@@ -1,0 +1,198 @@
+.manage_influencer_body{
+    margin-left: -20px;
+    margin-right: -20px;
+    overflow-y: scroll;
+    width: 100%;
+    position: relative;
+    padding-top: 1%;
+    height: 80vh;
+    /* z-index: -1; */
+    top: 10%;
+    background-color: #FEFEFF;
+    scrollbar-width: none;
+}
+.main{
+    width: 100%;
+    background-color: #FEFEFF;
+    height: 40%;
+    position: relative;
+    margin-top: 1%;
+    padding-top: 1%;
+}
+.influencer{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(247, 247, 247);
+    position: relative;
+    left: 7%;
+    width: 88%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 15vw;
+    height: 20vh;
+}
+.detail{
+    flex: 1;
+    margin: 1.2rem 0.5rem 0.5rem 1.5rem;
+}
+.channel-img{
+    position: relative;
+}
+.channel-img img{
+    height: 12vh;
+    /* width: 6rem; */
+    border-radius: 10%;
+    margin: 1rem auto auto 1rem;
+}
+.channel-img p{
+    margin: 1% auto auto 1.2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* border: 2px solid black; */
+    width: 80px;
+    font-size: 0.9rem;
+    text-align: left;
+    padding-left: 0;
+}
+.as{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #3b3b3b;
+    text-transform: capitalize;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.detail p{
+    margin: 0.4rem auto 0 auto;
+    color: rgb(155, 150, 150);
+    font-size: 0.8rem;
+    font-weight: bold;
+    /* border: 2px solid black; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.detail h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 0px;
+}
+.b1{
+    background-color: rgb(203, 242, 255);
+    margin: 2rem auto auto auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 1.3rem;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    width: 4rem;
+    margin: 4.5% 10px 1rem 0;
+    border: 0px;
+    border-radius: 40px;
+    color: rgb(58,203,253);
+}
+.social{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    /* border:2px solid black; */
+    margin: 1.5rem 1.5rem auto auto;
+    width: 35%;
+}
+.social .test{
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 1rem 0em 0 0;
+    width: 20%;
+    /* border:2px solid black; */
+}
+.test img{
+    border-radius: 1px;
+    height: 1.6rem;
+    width: 4rem;
+    /* border:2px solid black; */
+}
+.social .test p{
+    margin-top: 0px;
+    width:100%;
+    font-size: 0.8rem;
+    color: rgb(141, 141, 141);
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.social .test i{
+    font-size: 1em;
+}
+#checkbox_influencer{
+    /* float: left; */
+    position: absolute;
+    top: 12%;
+    width: 25px;
+}
+.edit_options{
+    /* margin: 0 auto auto 3rem; */
+    display: flex;
+    position: relative;
+    width: 88%;
+    left: 7%;
+    background-color: rgb(255, 255, 255);
+    border: 0.7 solid rgb(247, 247, 247);
+    border: 1px solid rgb(247,247,247);
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0.5rem;
+}
+.influencer-options_influencer,.influencer-origin{
+    flex: 1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.7rem;
+}
+.influencer-options_influencer{
+    flex: 1;
+    font-size: 0.7rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: right;
+}
+.influencer-origin{
+    color: rgb(146,146,146);
+    /* border: 2px solid black; */
+    position: relative;
+    left: 1%;
+}
+.influencer-options_influencer button{
+    margin-right: 20px;
+    width: 3.5rem;
+    font-size: 0.8rem;
+    color: #6238F2;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.influencer-options_influencer .delete_influencer,.edit_influencer{
+    background-color: transparent;
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: capitalize;
+}
+.influencer-options_influencer .view_influencer{
+    background-color: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    border: none;
+    background-color: #fafafa;
+    text-transform: capitalize;
+    color: #6238F2;
+}
+
+#view{
+    border: 1px solid #6238F2;
+    background-color: white;
+    border-radius: 2px;
+    height: 1.5rem;
+}
+#view a{
+    color: #6238F2;
+}
+.filter_app{
+    position: relative;
+    left: 80%;
+    display: inline-block;
+    top: 20px;
+    margin: auto auto 2% auto;
+    font-size: 1.2rem;
+}
+.fa-sliders{
+    color: #6238F2;
+    position: relative;
+    left: 1rem;
+}

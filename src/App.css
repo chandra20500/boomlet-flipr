@@ -1,0 +1,297 @@
+*{
+  box-sizing: border-box;
+}
+body,html{
+  font-size: 14px !important;
+}
+img{
+  max-width: 100%;  
+}
+a{
+  text-decoration: none;
+}
+.login_background{
+  padding: 1em;
+  margin: auto;
+  min-height: 100vh;
+  width: 1100px;
+  background-color: #f2f2f2;
+  max-width: 100%;
+  display: flex;
+}
+.loginBox{
+  margin: auto;
+    border: none;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    padding: 2.5em 2em 1em;
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 100%;
+}
+.loginBox .subText{
+  font-size: 0.9em;
+    text-align: center;
+    font-weight: 500;
+    margin: 15px 0 35px;
+}
+.loginBox  .logo{
+  height: 2em;
+  width: 10em;
+  display: block;
+  margin: auto;
+}
+.loginBox .form{
+  padding: 10px 20px;
+  width: 280px;
+  margin: auto;
+  max-width: 100%;
+}
+.input_box{
+  margin-bottom: 35px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+}
+.input_box label{
+  position: absolute;
+  font-weight: 500;
+  font-size: 0.7em;
+  top: 0;
+  padding: 4px 15px;
+  z-index: 0;
+}
+.input_box input{
+  border: none;
+    background: no-repeat;
+    width: 100%;
+    padding: 25px 15px 7px;
+    border-radius: 5px;
+    z-index: 1;
+    position: relative;
+    font-size: 0.8em;
+}
+input:focus,
+input:active,
+button:active,
+button:focus{
+  outline: none;
+}
+.btn:hover{
+  cursor: pointer;
+}
+.btn{
+  border-radius:0.3em;
+  border: none;
+  padding: 5px 12px;
+
+}
+.btn-blue{
+  background-color: #6238F2;  
+  color: white;
+}
+
+.btn-skyblue{
+  background-color: #02BDFD;  
+  color: white;
+}
+
+.text-align-right{
+  text-align: right;
+}
+
+.mt-1{
+margin-top: 1em;
+}
+.mt-2{
+  margin-top: 2em;  
+}
+.mt-3{
+  margin-top: 3em;  
+}
+.mt-4{
+  margin-top: 4em;  
+}.mt-5{
+  margin-top: 5em;  
+}
+
+
+/* Main Block Css */
+.main_bock{
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  align-items: flex-start;  
+  overflow: hidden;
+}
+.main_bock .right{
+  width: 200px;  
+  padding: 0px 20px 0px 0px;
+  position: sticky;
+  top: 0;
+}
+.main_bock .main_container{  
+  width: calc(100% - 200px);
+  padding: 0 20px;
+}
+.side_nav{
+padding: 10px 0px 0px 0px;
+}
+.side_nav .side_menu{
+  margin: 40px 0;
+}
+.side_nav .side_menu .menu_item{
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #2d2d2d;
+  margin-bottom: 30px;
+}
+.side_nav .side_menu .menu_item img.menu_icon{
+  width: 18px;
+  margin-right: 17px;
+}
+
+/* Top Bar CSS */
+.top_bar{
+  padding: 30px 20px 10px;
+  box-shadow: 0px 4px 6px -4px #9c9c9c70;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: white;
+  margin: 0 -20px;
+}
+.back_arrow:hover{
+  cursor: pointer;  
+}
+.top_bar_right_block{
+  padding: 0 10px;
+  flex-grow: 1;
+}
+
+
+/* cistom checkbox */
+
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 12px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  height: 18px;
+  width: 18px;
+  background-color: white;
+  border: 2px solid rgb(189, 189, 189);
+  border-radius: 20%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: white;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #6238F2;
+  border: none;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*custom checkbox design closed */
+
+
+/* custom radio button css starts */
+
+.radio-item {
+  display: inline-block;
+  position: relative;
+  padding: 0 6px;
+  margin: 10px 0 0;
+}
+
+.radio-item input[type='radio'] {
+  display: none;
+}
+
+.radio-item label {
+  color: #666;
+  font-weight: normal;
+}
+
+.radio-item label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin: 0 5px 0 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 11px;
+  border: 2px solid #004c97;
+  background-color: transparent;
+}
+
+.radio-item input[type=radio]:checked + label:after {
+  border-radius: 11px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  content: " ";
+  display: block;
+  background: #004c97;
+}
+
+/* custom radio button css closed */
